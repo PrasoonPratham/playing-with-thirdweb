@@ -28,6 +28,7 @@ prop = {}
 
 amount = 1000
 
+
 # currency_module.mint(amount* (10**18))
 # print(CurrencyModule.balance())
 
