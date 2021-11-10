@@ -1,10 +1,10 @@
-from nftlabs import NftlabsSdk, SdkOptions, ListArg, MintArg
+from thirdweb import ThirdwebSdk, SdkOptions, ListArg, MintArg
 import os
 
-from nftlabs.modules.currency import CurrencyModule
+from thirdweb.modules.currency import CurrencyModule
 
 # Conncect to the SDK, we're using the testnet to test it
-sdk = NftlabsSdk(SdkOptions(), "https://rinkeby-light.eth.linkpool.io/")
+sdk = ThirdwebSdk(SdkOptions(), "https://rinkeby-light.eth.linkpool.io/")
 
 # This is your wallet's private key, you can find them in your wallet. This will be used to interact with the contract 
 # WARNING: Never share this with anyone.
